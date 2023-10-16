@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Route;
 //dev.decar.com/sobremi => sobremí
 
 
-Route::view('/', 'welcome');
+Route::view('/', 'welcome')->name('inicio');
 
-Route::view('/contacto', 'contacto');
+Route::view('/contacto', 'contacto')->name('contact');
 
-Route::view('/blog', 'blog');
+Route::view('/blog', 'blog')->name('blog');
 
-Route::view('/sobremi', 'sobremi');
+Route::view('/sobremi', 'sobremi')->name('sobremi');
