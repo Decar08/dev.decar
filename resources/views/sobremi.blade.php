@@ -6,6 +6,9 @@
     <title>Sobre mi</title>
 </head>
 <body>
+
+@include('partials.navigation')
+
     <h1>Sobre mí</h1>
 </body>
 </html>
